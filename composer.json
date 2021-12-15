@@ -1,0 +1,20 @@
+{
+  "name": "alex823d/bog_pay",
+  "description": "BOG payment",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alex",
+      "email": "alex3dfree@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "alex823d\\BogPay\\": "src/"
+    }
+  },
+  "require": {
+    "guzzlehttp/guzzle": "^7.0"
+  }
+}
